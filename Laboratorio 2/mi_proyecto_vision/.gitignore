@@ -1,63 +1,20 @@
-# Entornos virtuales
-venv/
-venv_proyecto/
-env/
-.venv/
-
-# Credenciales y archivos sensibles
-kaggle.json
-.env
-.env.local
-.env.*.local
-
-# Datasets grandes (descargar desde Kaggle)
+# Dataset y archivos grandes
 waste-classification.zip
 Hazardous/
 Recyclable/
 Organic/
 Non-Recyclable/
+*.pkl
+*.h5
 
-# Modelos entrenados (generar localmente)
-waste_classifier_sklearn.pkl
-class_names.pkl
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-*.log
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Python
+# Entorno virtual
+venv_proyecto/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+*.pyc
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Credenciales
+kaggle.json
 
 # Archivos temporales
-*.tmp
-*.temp
-.cache/
+*.log
+.DS_Store
