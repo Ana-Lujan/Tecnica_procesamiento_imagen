@@ -1,5 +1,5 @@
 ---
-title: Clasificador Zero-Shot de Residuos
+title: Clasificador de residuos
 emoji: ♻️
 colorFrom: green
 colorTo: blue
@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# ♻️ Clasificador Zero-Shot de Residuos
+# ♻️ Clasificador de residuos
 
 ## 🎯 Descripción
 
