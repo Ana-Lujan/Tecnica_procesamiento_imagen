@@ -13,21 +13,21 @@ pinned: false
 
 ## 🎯 Descripción
 
-Sistema inteligente de clasificación de materiales reciclables usando **CLIP Zero-Shot**, sin necesidad de entrenamiento específico. Clasifica residuos en 9 categorías con recomendaciones de reciclaje.
+Sistema inteligente de clasificación de materiales reciclables usando **análisis de imagen avanzado**, sin necesidad de modelos pesados. Clasifica residuos en 9 categorías con recomendaciones de reciclaje personalizadas.
 
 ## 🔬 Tecnología
 
-- **Modelo**: OpenAI CLIP (ViT-Base-Patch32)
-- **Enfoque**: Zero-Shot Classification
-- **Categorías**: 9 tipos de residuos
-- **Interfaz**: Gradio con UX avanzada
+- **Análisis**: Forma, color y proporciones de imagen
+- **Enfoque**: Clasificación basada en características visuales
+- **Categorías**: 9 tipos de residuos reciclables
+- **Interfaz**: Gradio con colores dinámicos de confianza
 
 ## 🚀 Características
 
-✅ **Clasificación sin entrenamiento** - Usa CLIP pre-entrenado  
-✅ **Colores dinámicos** - Verde/Naranja/Rojo según confianza  
-✅ **Recomendaciones específicas** - Guías de reciclaje por categoría  
-✅ **Interfaz profesional** - Diseño moderno y responsivo  
+✅ **Clasificación inteligente** - Análisis avanzado de forma y color
+✅ **Colores dinámicos** - Verde/Naranja/Rojo según nivel de confianza
+✅ **Recomendaciones específicas** - Guías de reciclaje por material
+✅ **Interfaz intuitiva** - Diseño moderno y fácil de usar
 
 ## 📊 Categorías Soportadas
 
@@ -50,12 +50,12 @@ Sistema inteligente de clasificación de materiales reciclables usando **CLIP Ze
 3. Observa la clasificación con colores de confianza
 4. Lee las recomendaciones específicas
 
-## 🏆 Ventajas del Enfoque Zero-Shot
+## 🏆 Ventajas del Sistema
 
-- **Eficiencia**: Sin tiempo de entrenamiento
-- **Generalización**: Maneja casos no vistos
-- **Flexibilidad**: Fácil agregar categorías
-- **Robustez**: Funciona con diversas condiciones
+- **Eficiencia**: Clasificación instantánea sin modelos pesados
+- **Precisión**: Algoritmos específicos para cada tipo de residuo
+- **Accesibilidad**: Funciona en cualquier dispositivo
+- **Educativo**: Enseña sobre reciclaje correcto
 
 ---
 
