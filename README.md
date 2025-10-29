@@ -1,44 +1,62 @@
-# 📚 Técnicas de Procesamiento de Imagen
+---
+title: Clasificador de residuos
+emoji: ♻️
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: 5.49.1
+app_file: app.py
+pinned: false
+---
 
-Este repositorio reúne prácticas y laboratorios sobre técnicas de procesamiento de imágenes, organizadas en 7 carpetas principales. Cada carpeta aborda un tema distinto y contiene ejemplos, ejercicios y utilidades para aprender y experimentar.
+# ♻️ Clasificador de residuos
 
-## 🗂️ Carpetas principales
+## 🎯 Descripción
 
-- **001 - Introducción Py5** 🎨: Primeros pasos con Py5 para gráficos y visualización creativa.
-- **002 - Fundamentos del Procesamiento de Imagen** 📖: Conceptos básicos y teoría de la imagen digital.
-- **003 - Color, Muestreo y Cuantización** 🌈: Ejercicios sobre color, muestreo y digitalización de imágenes.
-- **004 - Segmentación y Librerías Básicas** 🍓: Técnicas de segmentación y uso de librerías esenciales.
-- **005 - Introducción a OpenCV** 🚦: Ejercicios básicos de procesamiento con OpenCV.
-- **006 - Elementos de OpenCV 1** 🏆: Contornos, propiedades geométricas y transformaciones avanzadas.
-- **007 - Elementos de OpenCV 2** 🧩: Matching de características y aplicaciones avanzadas.
+Sistema inteligente de clasificación de materiales reciclables usando **análisis de imagen avanzado**, sin necesidad de modelos pesados. Clasifica residuos en 9 categorías con recomendaciones de reciclaje personalizadas.
 
-## 🛠️ Librerías utilizadas
+## 🔬 Tecnología
 
-- `numpy` ➗: Operaciones matemáticas y manejo de arrays.
-- `matplotlib` 📊: Visualización de imágenes y gráficos.
-- `opencv-python` 🖼️: Procesamiento avanzado de imágenes.
-- `Pillow (PIL)` 🖼️: Carga y manipulación básica de imágenes.
-- `scikit-image` 🧪: Algoritmos especializados para imágenes.
-- `scipy` 🔬: Funciones científicas y procesamiento.
-- `seaborn` 🌊: Visualizaciones estadísticas.
-- `pandas` 📋: Manejo y análisis de datos tabulares.
-- `sklearn` 🤖: Machine learning y preprocesamiento de datos.
-- `py5` 🎨: Gráficos interactivos y visualización creativa.
-- `os` 🗂️: Navegación y gestión de archivos.
-- `glob` 🔍: Búsqueda de archivos por patrones.
-- `warnings` ⚠️: Control de advertencias en la salida.
+- **Análisis**: Forma, color y proporciones de imagen
+- **Enfoque**: Clasificación basada en características visuales
+- **Categorías**: 9 tipos de residuos reciclables
+- **Interfaz**: Gradio con colores dinámicos de confianza
 
-## 🚀 ¿Cómo usar este repositorio?
+## 🚀 Características
 
-1. Instala las librerías necesarias:
-   ```zsh
-   pip install numpy matplotlib opencv-python Pillow scikit-image scipy seaborn pandas scikit-learn py5
-   ```
-2. Explora cada carpeta y lee los README específicos para entender los ejercicios y ejemplos.
-3. Ejecuta los notebooks y scripts para experimentar y aprender.
+✅ **Clasificación inteligente** - Análisis avanzado de forma y color
+✅ **Colores dinámicos** - Verde/Naranja/Rojo según nivel de confianza
+✅ **Recomendaciones específicas** - Guías de reciclaje por material
+✅ **Interfaz intuitiva** - Diseño moderno y fácil de usar
 
-## 💡 Notas
+## 📊 Categorías Soportadas
 
-- Cada carpeta tiene su propio README con detalles y ejemplos.
-- Los códigos incluyen comentarios para facilitar el aprendizaje.
-- Puedes modificar y experimentar con los ejemplos para profundizar tu comprensión.
+| Categoría | Ejemplos |
+|-----------|----------|
+| Plástico | Botellas, envases |
+| Vidrio | Frascos, botellas |
+| Papel | Periódicos, hojas |
+| Cartón | Cajas, empaques |
+| Metal | Latas, aluminio |
+| Orgánico | Restos de comida |
+| Textil | Ropa, telas |
+| Electrónico | Dispositivos |
+| Peligroso | Baterías, químicos |
+
+## 🎨 Uso
+
+1. Sube una imagen del residuo
+2. Presiona "🔍 Analizar Residuo"
+3. Observa la clasificación con colores de confianza
+4. Lee las recomendaciones específicas
+
+## 🏆 Ventajas del Sistema
+
+- **Eficiencia**: Clasificación instantánea sin modelos pesados
+- **Precisión**: Algoritmos específicos para cada tipo de residuo
+- **Accesibilidad**: Funciona en cualquier dispositivo
+- **Educativo**: Enseña sobre reciclaje correcto
+
+---
+
+*Desarrollado para Procesamiento Digital de Imágenes y Visión por Computadora*
