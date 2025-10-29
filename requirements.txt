@@ -1,0 +1,21 @@
+# Librerías principales para el Clasificador de Residuos
+# Proyecto: Visión por Computadora - Ana Luján
+# Versión simplificada sin modelos pesados de ML
+
+# Interfaz web
+gradio>=4.0.0
+
+# Procesamiento de imágenes
+Pillow>=9.0.0
+
+# Computación numérica
+numpy>=1.21.0
+
+# Librerías opcionales (comentadas para despliegue ligero)
+# transformers>=4.30.0  # Para modelos CLIP (requiere mucho espacio)
+# torch>=2.0.0          # Para deep learning
+# torchvision>=0.15.0   # Para visión computacional
+# scikit-learn>=1.3.0   # Para modelos ML tradicionales
+# joblib>=1.3.0         # Para guardar/cargar modelos
+# matplotlib>=3.6.0     # Para gráficos
+# seaborn>=0.12.0       # Para visualizaciones

@@ -1,0 +1,20 @@
+# Dataset y archivos grandes
+waste-classification.zip
+Hazardous/
+Recyclable/
+Organic/
+Non-Recyclable/
+*.pkl
+*.h5
+
+# Entorno virtual
+venv_proyecto/
+__pycache__/
+*.pyc
+
+# Credenciales
+kaggle.json
+
+# Archivos temporales
+*.log
+.DS_Store

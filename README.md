@@ -1,4 +1,3 @@
-
 # 📚 Técnicas de Procesamiento de Imagen
 
 Este repositorio reúne prácticas y laboratorios sobre técnicas de procesamiento de imágenes, organizadas en 7 carpetas principales. Cada carpeta aborda un tema distinto y contiene ejemplos, ejercicios y utilidades para aprender y experimentar.
