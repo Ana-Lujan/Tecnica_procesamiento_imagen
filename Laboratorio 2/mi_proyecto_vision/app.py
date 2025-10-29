@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Aplicación principal para Hugging Face Spaces
-Clasificador Zero-Shot de Residuos usando CLIP
+Clasificador de residuos usando CLIP
 
 Esta aplicación permite clasificar imágenes de residuos usando IA avanzada.
 Sube una foto de un residuo y obtén recomendaciones de reciclaje personalizadas.
